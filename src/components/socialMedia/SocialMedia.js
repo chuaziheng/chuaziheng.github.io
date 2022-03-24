@@ -1,6 +1,7 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import { SiLeetcode } from "react-icons/si";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -111,7 +112,10 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-stack-overflow"></i>
+          <i className="">
+          <SiLeetcode />
+          </i>
+
           <span></span>
         </a>
       ) : null}

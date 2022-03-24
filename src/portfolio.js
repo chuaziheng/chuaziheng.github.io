@@ -26,7 +26,7 @@ const greeting = {
     "I enjoy pouring data into a big pile of linear algebra, and then collecting answers on the other side."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1OIGhJqc3ZAGF04dvXNQ8DS1IBw4zLAVH/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,9 +38,8 @@ const socialMediaLinks = {
   gmail: "chuaziheng98@gmail.com",
   kaggle: "https://gitlab.com/chuaziheng",
   instagram: "https://www.instagram.com/zihengggsiol/",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  stackoverflow: "https://leetcode.com/chuaziheng98/",
+  // Instagram, Twitter and Kaggle, Medium are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -65,16 +64,29 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "r",
+      fontAwesomeClassname: "fab fa-r-project"
+    },
+
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -84,34 +96,15 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "linux",
+      fontAwesomeClassname: "fas fa-linux"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
@@ -263,15 +256,15 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: ""
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: ""
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: ""
         }
       ]
     },
