@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Chua Zi Heng",
+  username: "Zi Heng",
   title: "Hi all, I'm Zi Heng",
   subTitle: emoji(
     "I enjoy pouring data into a big pile of linear algebra, and then collecting answers on the other side."
@@ -356,7 +356,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Hit me up, always up for a nerdy chat!",
+    "Hit me up, always up for a nerdy chat",
   // number: "+92-0000000000",
   // email_address: "saadpasta70@gmail.com"
 };
