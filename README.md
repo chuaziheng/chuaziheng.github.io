@@ -4,6 +4,7 @@ Live portfolio at <a href>https://chuaziheng.github.io/</a>.
 
 ## Dev
 ```
+npm install
 npm start
 ```
 
@@ -15,4 +16,4 @@ npm run deploy
 
 ## References
 
-Template taken from <a href>https://github.com/saadpasta/developerFolio</a>, very easily customizable. Time to slowly modify...
+Template taken from <a href>https://github.com/saadpasta/developerFolio</a>, super easy to customize. Time to slowly modify...

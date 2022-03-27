@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
+// import Typist from 'react-typist';
 import guyCodingFront from "../../assets/lottie/guyCodingFront";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
@@ -25,8 +25,10 @@ export default function Greeting() {
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
-                {" "}
-                {greeting.title}{" "}
+                {/* <Typist> */}
+                  {" "}
+                  {greeting.title}{" "}
+                {/* </Typist> */}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p

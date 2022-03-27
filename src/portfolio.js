@@ -123,10 +123,11 @@ const educationInfo = {
       logo: require("./assets/images/ntuLogo.png"),
       subHeader: "BSc (Hons) Data Science & Artificial Intelligence",
       duration: "August 2019 - June 2023",
-      desc: "<insert highlights>",
+      desc: "GPA: 4.63/5.00",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Undergraduate Researcher (URECA Programme)",
+        "Vice-Captain - Varsity Tchoukball",
+        "Student Mentor - SCSE Innovation Lab"
       ]
     },
     {
@@ -134,8 +135,8 @@ const educationInfo = {
       logo: require("./assets/images/hwachongLogo.png"),
       subHeader: "GCE A Levels (Integrated Programme)",
       duration: "January 2011 - December 2016",
-      desc: "Average student.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "",
+      descBullets: ["Hwa Chong Diploma with Merit" , "Captain - HCJC Tchoukball", "Drum Major - HCI Military Band"]
     }
   ]
 };
@@ -175,25 +176,25 @@ const workExperiences = {
       company: "Shopee",
       companylogo: require("./assets/images/shopeeLogo.jpg"),
       date: "Jan 2022 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Identity Verification team (Computer Vision)",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
       role: "AI Engineer Intern",
       company: "GovTech",
       companylogo: require("./assets/images/govtech.gif"),
       date: "May 2021 – Oct 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Video Analytics, DSAID (Computer Vision)"
     },
     {
       role: "Software Engineer Intern",
       company: "BOT MD",
       companylogo: require("./assets/images/botmd.gif"),
       date: "Nov 2020 – Jan 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Data Analytics"
     }
   ]
 };
@@ -251,21 +252,13 @@ const achievementSection = {
     {
       title: "SG:Digital Scholarship",
       subtitle:
-        "Mid-term scholarship sponsored by IMDA.",
+        "Mid-term undergraduate scholarship sponsored by IMDA.",
       image: require("./assets/images/sgdigitalLogo.webp"),
       footerLink: [
         {
-          name: "Certification",
-          url: ""
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1aGtJFXmYV2sl5QCICHCURq2FMDaB3dME/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url: ""
-        }
       ]
     },
     // {
