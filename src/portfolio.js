@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/chuaziheng",
   linkedin: "https://www.linkedin.com/in/chuaziheng/",
   gmail: "chuaziheng98@gmail.com",
-  kaggle: "https://gitlab.com/chuaziheng",
+  kaggle: "https://www.kaggle.com/chuaziheng/",
   instagram: "https://www.instagram.com/zihengggsiol/",
   stackoverflow: "https://leetcode.com/chuaziheng98/",
   // Instagram, Twitter and Kaggle, Medium are also supported in the links!
